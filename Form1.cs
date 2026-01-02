@@ -62,7 +62,7 @@ namespace DXFThumbNail
             double ExternalArea = 0;
             double InternalLenght = 0;
             double InternalArea = 0;
-            bool ret = MathHelper.FindClosedAreaData(dxfReaderNETControl1.DXF.Entities, out ExternalLenght, out ExternalArea, out InternalLenght, out InternalArea, out InternalCountoursNumber);
+            bool ret = MathHelper.FindClosedAreaData(dxfReaderNETControl1.DXF.Entities.ToList(), out ExternalLenght, out ExternalArea, out InternalLenght, out InternalArea, out InternalCountoursNumber);
 
             if (ret)
             {

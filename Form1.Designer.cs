@@ -43,7 +43,7 @@
             // dxfReaderNETControl1
             // 
             this.dxfReaderNETControl1.AutoSize = true;
-            this.dxfReaderNETControl1.ContinuousHighlight = false;
+            
             this.dxfReaderNETControl1.CustomCursor = DXFReaderNET.CustomCursorType.None;
             dxfDocument1.ActiveLayout = "Model";
             dxfDocument1.Comments = null;
